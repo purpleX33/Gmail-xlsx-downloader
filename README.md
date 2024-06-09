@@ -48,7 +48,8 @@ This script allows you to connect to your Gmail account and download email attac
 - To adapt the script for other file types, modify the file extension check in the following line:
   ```
   if filename.lower().endswith('.xlsx'):
-  
+  ```
   For example, to download PDFs, change it to:
+  ```
   if filename.lower().endswith('.pdf'):
   ```
